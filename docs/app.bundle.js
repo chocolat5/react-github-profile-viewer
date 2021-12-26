@@ -193,12 +193,9 @@ object-assign
     background-color: #fff;
     border-radius: 16px;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.14);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     letter-spacing: 0.05em;
     text-decoration: none;
-
-    &:hover {
-    }
   }
 
   .user_info {
