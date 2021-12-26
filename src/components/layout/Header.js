@@ -57,9 +57,6 @@ const header = css`
     @media screen and (min-width: 900px) {
       margin: 0;
     }
-
-    &:hover {
-    }
   }
 
   .icon {

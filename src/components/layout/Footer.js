@@ -11,7 +11,7 @@ const Footer = () => {
         <ul className="links">
           <li className="link_item">
             <a
-              href="https://github.com/chocolat5/react-github-profile-viewer"
+              href="https://www.linkedin.com/in/yuriefutatsugi/"
               target="_blank"
               rel="noopener noreferrer"
               className="link"
@@ -22,7 +22,7 @@ const Footer = () => {
           </li>
           <li className="link_item">
             <a
-              href="https://github.com/chocolat5/react-github-profile-viewer"
+              href="https://github.com/chocolat5/"
               target="_blank"
               rel="noopener noreferrer"
               className="link"

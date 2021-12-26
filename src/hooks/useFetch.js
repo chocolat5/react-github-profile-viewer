@@ -7,11 +7,17 @@ export function useFetch(uri) {
 
   useEffect(() => {
     if (!uri) return
-    fetch(uri)
+    fetch(uri, {
+      headers: {
+        'User-Agent': 'request',
+      },
+    })
       .then((data) => data.json())
       .then(setData)
       .then(() => setLoading(false))
-      .catch(setError)
+      .catch((error) => {
+        setError('Sorry, user not found!')
+      })
   }, [uri])
 
   return {

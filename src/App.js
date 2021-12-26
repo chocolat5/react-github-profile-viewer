@@ -22,16 +22,16 @@ const App = () => {
       <main className="main">
         <div className="container">
           <SearchForm value={login} onSearch={setLogin} />
-          {login && (
-            <>
-              <Fetch
-                uri={`https://api.github.com/users/${login}`}
-                renderSuccess={UserDetail}
-              />
-              <UserRepositories login={login} />
-            </>
-          )}
         </div>
+        {login && (
+          <>
+            <Fetch
+              uri={`https://api.github.com/users/${login}`}
+              renderSuccess={UserDetail}
+            />
+            <UserRepositories login={login} />
+          </>
+        )}
       </main>
       <Footer />
     </div>
@@ -46,8 +46,8 @@ const app = css`
   min-height: 100vh;
   background: rgb(19, 166, 138);
   background: linear-gradient(
-    180deg,
-    rgba(19, 166, 138, 1) 30%,
+    223deg,
+    rgba(19, 166, 138, 1) 14%,
     rgba(30, 152, 201, 1) 100%
   );
 `
